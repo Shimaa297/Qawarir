@@ -47,6 +47,7 @@ class TextFormShared extends StatelessWidget {
         onFieldSubmitted: onSubmit,
         maxLines: maxLine,
         obscureText: obscure!,
+        obscuringCharacter: '*',
         style: AppStyles.title16Regular,
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(horizontal: AppPadding.p16.w, vertical: AppPadding.p18.h),
